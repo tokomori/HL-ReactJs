@@ -1,0 +1,33 @@
+
+
+.user-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.user-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+.user-info {
+  color: #374151;
+  line-height: 1.6;
+}
+
+.user-info span {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 70px;
+}
